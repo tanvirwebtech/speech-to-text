@@ -1,0 +1,60 @@
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+.imgDiv {
+    width: 200px;
+    margin: 0 auto;
+}
+.micImg {
+    width: 100%;
+}
+.h1 {
+    text-align: center;
+    color: #222;
+    margin-top: 30px;
+}
+.contentBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    width: 50%;
+}
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.button {
+    padding: 10px 20px;
+    margin: 15px 0px;
+}
+.language {
+    display: flex;
+    justify-content: space-between;
+}
+.textArea {
+    width: 100%;
+    height: 100px;
+}
+
+@media screen and (max-width: 320px) {
+    .imgDiv {
+        width: 100px;
+        margin: 0 auto;
+    }
+    .h1 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    .content {
+        width: 90%;
+    }
+
+    .button {
+        padding: 6px 12px;
+        margin: 7px 0px;
+    }
+}
